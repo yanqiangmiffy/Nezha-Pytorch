@@ -31,3 +31,4 @@ inputs = tokenizer(text, return_tensors="pt")
 with torch.no_grad():
     outputs = model(**inputs)
 ```
+> quincyqiang/nezha-cn-base可以改成本地路径
