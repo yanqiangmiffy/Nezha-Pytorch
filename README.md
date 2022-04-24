@@ -14,7 +14,7 @@ import torch
 from transformers import BertTokenizer
 from nezha import NeZhaModel, NeZhaConfig
 
-text = "今天[MASK]很好，我[MASK]去公园玩。"
+text = "华为开源中文版BERT模型 NEZHA 哪吒。"
 tokenizer = BertTokenizer.from_pretrained(
     "quincyqiang/nezha-cn-base"
 )
